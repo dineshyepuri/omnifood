@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+font-family: "lato" ,sans-serif;
+    
+}
+.row{
+max-width: 1140px;
+ margin: 0 auto;
+    
+}
+
+header{
+background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment:fixed;
+   
+    
+    
+}
+/*----HEADING SECTION----*/
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+     transform: translate(-40%, -40%);
+    
+    
+}
+
+h1,h2,h3,h4{
+   
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+h1{
+ margin-top:  0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;      
+    letter-spacing: 1px;
+}
+h2{
+   font-size: 40px;
+    word-spacing:2px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    
+    
+}
+h2:after{
+    display: block;
+    height:2px;
+    background-color:#e67e22; 
+    
+    width: 150px;
+    content:"  ";
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    
+        
+}
+h3{
+font-size: 110%;
+    margin-bottom: 15px;
+    
+
+
+}
+.box p{
+    
+    line-height: 145%;
+    font-size: 90%;
+    
+}
+.icon-big
+{
+    font-size: 350%;
+    color: #e67e22;
+    display: block;
+    margin-bottom: 10px;
+    
+
+    
+    
+}
+
+
+
+
+
+
+section{
+    padding: 80px 0;
+       
+}
+/*-----para--*/
+.yepuri{
+    width: 70%;
+    line-height: 145%;
+    margin-left: 15%;
+    
+}
+.box{
+ padding: 2%;
+    
+}
+
+
+
+
+
+
+
+
+/*---buttons-----*/
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+ font-weight:300;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    
+    
+}
+.btn-half:link,
+.btn-half:visited {
+
+    border: 1px solid #e67e22;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.btn-ghot:link,
+.btn-ghot:visited {
+    border-radius: 20px;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+.btn:hover,
+.btn:active {
+    background-color: #bf6516;
+    
+    
+}
+
+
+.btn-half:hover,
+.btn-half:active {
+
+    border: 1px solid #bf6516;
+    
+    
+}
+
+.btn-ghot:hover,
+.btn-ghot:active {
+   
+    border: 1px solid #bf6516;
+    color: #fff;
+}
+/*---logo----*/
+.logo{
+    height: 100px;
+        width:auto;
+    margin-top: 30px;
+    
+        
+    
+}
+.dinnu .yepuri{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/*-----navigations-----*/
+.dinesh
+{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    
+    
+    
+}
+.dinesh li{
+    display: inline-block;
+    margin-left: 45px;
+}
+.dinesh li a:link,
+.dinesh li a:visited {
+
+    color: #fff;
+    font-size: 90%;
+    text-decoration: none;
+    text-transform: uppercase;
+     border-bottom: transparent;
+    
+    
+}
+.dinesh li a:hover,
+.dinesh li a:active{
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 7px;
+    
+    
+    
+}
+
+/*-----meals-----*/
+.meals-showcase{
+    
+   list-style: none;
+    width: 100%;
+    
+    
+    
+    
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+    
+    
+    
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+   
+}
+
+
+.meal-photo img{
+    
+    width: 100%;
+    height: auto;
+    
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+}
+.photo-section{
+    
+    padding: 0;
+}
+.meal-photo img:hover{
+    transform: scale(1);
+    
+    opacity: 1;
+    
+    
+}
+/*-----phone-----*/
+.phone{
+    background-color:#f0efef;
+}
+
+
+
+
+
+.steps-box:first-child{
+    
+  text-align: right;  
+    padding-right: 3%;
+     margin-top: 30px;
+    
+}
+.steps-box:last-child{
+    padding-left: 3%;
+     margin-top: 70px;
+
+}
+.app-screen{
+   
+    width: 40%;
+}
+
+.work-steps{
+    margin-bottom: 50px;
+    
+}
+.work-steps div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 145%;
+    margin-right: 25px;
+}
+.app-1:link,
+.app-1:visited{
+    margin: 0;
+    border-bottom: transparent;
+    
+}
+
+
+
+
+
+.app-1 img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+    
+}
+.clearfix{zoom: 1}
+.clearfix:after{
+    content: "-";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+/*---cities-----*/
+.cities{
+    background-color: #fff;
+    
+}
+
+
+
+
+
+
+.box img{
+    
+  width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    
+    
+      transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+     overflow:hidden;
+   
+    
+    
+}
+.box img:hover{
+    transform: scale(1);
+    
+    opacity: 1;
+   
+    background-color:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+
+
+
+
+
+.city-feature{
+    margin-bottom: 5px;
+
+    
+    
+}
+.small{
+    width: 30px;
+    text-align: center;
+    color:  #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -4px;
+    
+    
+    
+    
+}
+h4{
+    color:  #123;
+    font-size: 110%;
+    margin-bottom: 10px;
+    
+}
+a:link,
+a:active{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 2px;
+    
+    
+    
+    
+}
+
+a:hover, 
+a:active{
+    color:dodgerblue;
+    border-bottom: transparent;
+    
+    
+    
+    
+}
+
+
+
+
+
